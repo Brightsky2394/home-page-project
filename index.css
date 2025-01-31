@@ -1,0 +1,77 @@
+body, html {
+    box-sizing: border-box;
+    background-color: green;
+    color: #fff;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("images/oyo-bgr1.webp");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px; 
+}
+
+#explore {
+    border-radius: 5px 0px;
+    background: #e2cfbc;
+    color: red;
+    padding: 6px 12px;
+    margin-bottom: 20px;
+}
+#discover{
+    border-radius: 0 5px 0 5px;
+    background: #bcc2e2;
+    color: green;
+    font-style: italic;
+    text-align: center;
+    padding: 6px 12px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.activity-section {
+    background: linear-gradient(#e2cfbc, #bcc2e2);
+    text-align: center;
+}
+#title {
+    padding: 20px;
+}
+.activity-content {
+    display: flex;
+    align-items: center;
+}
+
+.guide-section {
+    display: block;
+    text-align: center;
+    margin: 60px 30px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 200px;
+    border: 2px solid #e2cfbc;
+    border-radius: 5px;
+    justify-content: center;
+    margin-inline: auto;
+    padding: 20px 40px;
+
+}
+#card-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0 10% 0 50%;
+}
