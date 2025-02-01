@@ -59,12 +59,13 @@ img {
     margin: 60px 30px;
 }
 .card {
+    background-color: goldenrod;
     display: flex;
     align-items: center;
     width: 60%;
     height: 200px;
-    border: 2px solid #e2cfbc;
-    border-radius: 5px;
+    border: 2px solid tomato;
+    border-radius: 8px;
     justify-content: center;
     margin-inline: auto;
     padding: 20px 40px;
@@ -75,3 +76,19 @@ img {
     height: 200px;
     border-radius: 0 10% 0 50%;
 }
+
+#link1 {
+    color: rgb(109, 191, 243);
+    text-decoration: none;
+}
+#link1:hover {
+    color: #0b66c3;
+}
+#link2 {
+    color: gray;
+    text-decoration: none;
+}
+#link2:hover {
+    color: #010409;
+}
+
